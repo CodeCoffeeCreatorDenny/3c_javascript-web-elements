@@ -1,0 +1,23 @@
+.profile-wrapper {
+  position: relative;
+}
+
+.loader {
+  display: none;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .searchContainer {
+    text-align: center;
+  }
+
+  .searchContainer h1 {
+    font-size: 1.7rem;
+  }
+}
